@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		43B11BCA1B150C4C00274CB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B11BC91B150C4C00274CB7 /* AppDelegate.swift */; };
-		43B11BCD1B150C4C00274CB7 /* Campaigner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43B11BCB1B150C4C00274CB7 /* Campaigner.xcdatamodeld */; };
-		43B11BCF1B150C4C00274CB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B11BCE1B150C4C00274CB7 /* ViewController.swift */; };
 		43B11BD21B150C4C00274CB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43B11BD01B150C4C00274CB7 /* Main.storyboard */; };
 		43B11BD41B150C4C00274CB7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43B11BD31B150C4C00274CB7 /* Images.xcassets */; };
 		43B11BD71B150C4C00274CB7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43B11BD51B150C4C00274CB7 /* LaunchScreen.xib */; };
 		43B11BE31B150C4C00274CB7 /* CampaignerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B11BE21B150C4C00274CB7 /* CampaignerTests.swift */; };
+		43B11BF81B150DDE00274CB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B11BED1B150DDE00274CB7 /* AppDelegate.swift */; };
+		43B11BF91B150DDE00274CB7 /* Campaigner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43B11BF01B150DDE00274CB7 /* Campaigner.xcdatamodeld */; };
+		43B11BFA1B150DDE00274CB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B11BF71B150DDE00274CB7 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,15 +29,15 @@
 /* Begin PBXFileReference section */
 		43B11BC41B150C4C00274CB7 /* Campaigner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Campaigner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43B11BC81B150C4C00274CB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		43B11BC91B150C4C00274CB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		43B11BCC1B150C4C00274CB7 /* Campaigner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Campaigner.xcdatamodel; sourceTree = "<group>"; };
-		43B11BCE1B150C4C00274CB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		43B11BD11B150C4C00274CB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		43B11BD31B150C4C00274CB7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		43B11BD61B150C4C00274CB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		43B11BDC1B150C4C00274CB7 /* CampaignerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CampaignerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43B11BE11B150C4C00274CB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43B11BE21B150C4C00274CB7 /* CampaignerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignerTests.swift; sourceTree = "<group>"; };
+		43B11BED1B150DDE00274CB7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43B11BF11B150DDE00274CB7 /* Campaigner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Campaigner.xcdatamodel; sourceTree = "<group>"; };
+		43B11BF71B150DDE00274CB7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,12 +79,15 @@
 		43B11BC61B150C4C00274CB7 /* Campaigner */ = {
 			isa = PBXGroup;
 			children = (
-				43B11BC91B150C4C00274CB7 /* AppDelegate.swift */,
-				43B11BCE1B150C4C00274CB7 /* ViewController.swift */,
-				43B11BD01B150C4C00274CB7 /* Main.storyboard */,
-				43B11BD31B150C4C00274CB7 /* Images.xcassets */,
-				43B11BD51B150C4C00274CB7 /* LaunchScreen.xib */,
-				43B11BCB1B150C4C00274CB7 /* Campaigner.xcdatamodeld */,
+				43B11BEC1B150DDE00274CB7 /* AppDelegate */,
+				43B11BEE1B150DDE00274CB7 /* Categories */,
+				43B11BEF1B150DDE00274CB7 /* DataManagementLayer */,
+				43B11BF21B150DDE00274CB7 /* Extensions */,
+				43B11BF31B150DDE00274CB7 /* NetworkLayer */,
+				43B11BF41B150DDE00274CB7 /* Protocols */,
+				43B11BF51B150DDE00274CB7 /* Utilities */,
+				43B11BF61B150DDE00274CB7 /* ViewControllers */,
+				43B11BFB1B150DF500274CB7 /* Storyboards */,
 				43B11BC71B150C4C00274CB7 /* Supporting Files */,
 			);
 			path = Campaigner;
@@ -93,6 +96,8 @@
 		43B11BC71B150C4C00274CB7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				43B11BD31B150C4C00274CB7 /* Images.xcassets */,
+				43B11BD51B150C4C00274CB7 /* LaunchScreen.xib */,
 				43B11BC81B150C4C00274CB7 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -113,6 +118,73 @@
 				43B11BE11B150C4C00274CB7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43B11BEC1B150DDE00274CB7 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				43B11BED1B150DDE00274CB7 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		43B11BEE1B150DDE00274CB7 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		43B11BEF1B150DDE00274CB7 /* DataManagementLayer */ = {
+			isa = PBXGroup;
+			children = (
+				43B11BF01B150DDE00274CB7 /* Campaigner.xcdatamodeld */,
+			);
+			path = DataManagementLayer;
+			sourceTree = "<group>";
+		};
+		43B11BF21B150DDE00274CB7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		43B11BF31B150DDE00274CB7 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		43B11BF41B150DDE00274CB7 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		43B11BF51B150DDE00274CB7 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		43B11BF61B150DDE00274CB7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				43B11BF71B150DDE00274CB7 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		43B11BFB1B150DF500274CB7 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				43B11BD01B150C4C00274CB7 /* Main.storyboard */,
+			);
+			name = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,9 +287,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43B11BCF1B150C4C00274CB7 /* ViewController.swift in Sources */,
-				43B11BCD1B150C4C00274CB7 /* Campaigner.xcdatamodeld in Sources */,
-				43B11BCA1B150C4C00274CB7 /* AppDelegate.swift in Sources */,
+				43B11BFA1B150DDE00274CB7 /* ViewController.swift in Sources */,
+				43B11BF91B150DDE00274CB7 /* Campaigner.xcdatamodeld in Sources */,
+				43B11BF81B150DDE00274CB7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,12 +499,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		43B11BCB1B150C4C00274CB7 /* Campaigner.xcdatamodeld */ = {
+		43B11BF01B150DDE00274CB7 /* Campaigner.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				43B11BCC1B150C4C00274CB7 /* Campaigner.xcdatamodel */,
+				43B11BF11B150DDE00274CB7 /* Campaigner.xcdatamodel */,
 			);
-			currentVersion = 43B11BCC1B150C4C00274CB7 /* Campaigner.xcdatamodel */;
+			currentVersion = 43B11BF11B150DDE00274CB7 /* Campaigner.xcdatamodel */;
 			path = Campaigner.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
