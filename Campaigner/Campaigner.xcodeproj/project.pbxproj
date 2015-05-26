@@ -12,8 +12,9 @@
 		43B11BD71B150C4C00274CB7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43B11BD51B150C4C00274CB7 /* LaunchScreen.xib */; };
 		43B11BE31B150C4C00274CB7 /* CampaignerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B11BE21B150C4C00274CB7 /* CampaignerTests.swift */; };
 		43B11BF81B150DDE00274CB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B11BED1B150DDE00274CB7 /* AppDelegate.swift */; };
-		43B11BF91B150DDE00274CB7 /* Campaigner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43B11BF01B150DDE00274CB7 /* Campaigner.xcdatamodeld */; };
 		43B11BFA1B150DDE00274CB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B11BF71B150DDE00274CB7 /* ViewController.swift */; };
+		43B11C011B150EA100274CB7 /* Campaigner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43B11BFF1B150EA100274CB7 /* Campaigner.xcdatamodeld */; };
+		43B11C021B150EA100274CB7 /* Campaigner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43B11BFF1B150EA100274CB7 /* Campaigner.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +37,8 @@
 		43B11BE11B150C4C00274CB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43B11BE21B150C4C00274CB7 /* CampaignerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignerTests.swift; sourceTree = "<group>"; };
 		43B11BED1B150DDE00274CB7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		43B11BF11B150DDE00274CB7 /* Campaigner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Campaigner.xcdatamodel; sourceTree = "<group>"; };
 		43B11BF71B150DDE00274CB7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		43B11C001B150EA100274CB7 /* Campaigner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Campaigner.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,7 +139,9 @@
 		43B11BEF1B150DDE00274CB7 /* DataManagementLayer */ = {
 			isa = PBXGroup;
 			children = (
-				43B11BF01B150DDE00274CB7 /* Campaigner.xcdatamodeld */,
+				43B11BFC1B150EA100274CB7 /* Model */,
+				43B11BFD1B150EA100274CB7 /* Repository */,
+				43B11BFE1B150EA100274CB7 /* Schema */,
 			);
 			path = DataManagementLayer;
 			sourceTree = "<group>";
@@ -185,6 +188,28 @@
 				43B11BD01B150C4C00274CB7 /* Main.storyboard */,
 			);
 			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		43B11BFC1B150EA100274CB7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		43B11BFD1B150EA100274CB7 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		43B11BFE1B150EA100274CB7 /* Schema */ = {
+			isa = PBXGroup;
+			children = (
+				43B11BFF1B150EA100274CB7 /* Campaigner.xcdatamodeld */,
+			);
+			path = Schema;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,8 +312,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43B11C011B150EA100274CB7 /* Campaigner.xcdatamodeld in Sources */,
 				43B11BFA1B150DDE00274CB7 /* ViewController.swift in Sources */,
-				43B11BF91B150DDE00274CB7 /* Campaigner.xcdatamodeld in Sources */,
 				43B11BF81B150DDE00274CB7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43B11C021B150EA100274CB7 /* Campaigner.xcdatamodeld in Sources */,
 				43B11BE31B150C4C00274CB7 /* CampaignerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -499,12 +525,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		43B11BF01B150DDE00274CB7 /* Campaigner.xcdatamodeld */ = {
+		43B11BFF1B150EA100274CB7 /* Campaigner.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				43B11BF11B150DDE00274CB7 /* Campaigner.xcdatamodel */,
+				43B11C001B150EA100274CB7 /* Campaigner.xcdatamodel */,
 			);
-			currentVersion = 43B11BF11B150DDE00274CB7 /* Campaigner.xcdatamodel */;
+			currentVersion = 43B11C001B150EA100274CB7 /* Campaigner.xcdatamodel */;
 			path = Campaigner.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
